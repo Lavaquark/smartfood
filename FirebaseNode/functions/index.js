@@ -3,7 +3,7 @@ const functions = require('firebase-functions');
 const vision = require('@google-cloud/vision')();
 const moment = require('moment');
 const gcs = require('@google-cloud/storage')();
-
+const fs = require('fs');
 
 // // Create and Deploy Your First Cloud Functions
 // // https://firebase.google.com/docs/functions/write-firebase-functions
@@ -88,8 +88,14 @@ function decideWhatIsShownInTheImage(detections, fileBucket, filePath) {
   var text = detections.text
   var documents = detections.documents
 
+
   if (labels) {
-    updateItem(labels[0], fileBucket + '/' + filePath, filePath)
+    for (var i=0; i<labels.length; i++) {
+      if(labels[i]=="apple" || labels[i]=="banana" || labels[i]=="cola"|| labels[i]=="milk"|| labels[i]=="orange"){
+        updateItem(labels[i], fileBucket + '/' + filePath, filePath)
+      }
+  }
+  console.log(JSON.stringify(labels))
   }
   if (logos) {
     //console.log(JSON.stringify(logos))
@@ -148,4 +154,10 @@ exports.newImageUploaded = functions.storage.object().onChange(event => {
 
   analyzeImage(fileBucket, filePath)
 
+});
+
+exports.reqItem = functions.https.onRequest((req, res) => {
+  myJson = require("./visionapi.json");
+  console.log('Returning the request with' + myJson);
+  res.status(200).send(myJson);
 });

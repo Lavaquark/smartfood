@@ -7,7 +7,8 @@
     "firebase-admin": "~5.2.1",
     "firebase-functions": "^0.6.2",
     "moment": "^2.18.1",
-    "watson-developer-cloud": "^2.39.0"
+    "watson-developer-cloud": "^2.39.0",
+    "fs" :"*"
   },
   "private": true,
   "devDependencies": {
