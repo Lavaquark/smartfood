@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "smartfood-184220",
+  "private_key_id": "ed238d476c11e32cb3f7d9bbc3653d2a0f3d5cc5",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEuwIBADANBgkqhkiG9w0BAQEFAASCBKUwggShAgEAAoIBAQC4sQ+4Srv85fI0\nm/gy8RhRpnXz4VDV3eTndvwwMHdIc+/tcgMfCYFE9CW1zB8qL9F8IGlAA5cLTp3Q\n78lMSr9TfXCQd8Xwyl9Jyb+bMVhfqA+eIEjvASQnR1PPdkojuz92Mk1xjIYvlh7k\nKLWMXKr6yk6qhW4xRDOCrb1Z760M/yTDZmfbjVmR9PTuPeG3yHUmn+gbR7eaA5Yi\npxtBA/2TmA30pBC/RwhOsHairUbn3viHCsXYhIajbM0PQFo7Ns00a4t6SwDJxHyh\nywVwwIfpCGrMIC/+tknCWpcVJpPl9GSs5tpMuV7WV6m7s9ur7RhxIqfedspEpBKy\ncd18PBrlAgMBAAECggEAMYwCoRiffPV9OCLdf2ERepoTC6WXB4DbL0NK3WyrG2tK\n4uLStolYvhRXZ4GGnM0uQEP7qFouM7DYApzJXmexEydUQtV26yWHUabHec1PnX3b\nDrsvhbrDJaxrbf0YX6SUnlNZVkxyFSMLT38iUTDtB5Gtb+6SxLG8teKBKTb0sEbv\nryqWaWEPew1FQN97Xka551Oa0C1gcRHZX04vHdfLFI2lxpiywccPqAjqt5l29Fi4\nxBKlp6xvXWHT6QPhn9PuWuGD9z4teHDjyn+tGITzPoKUdDbdy+mBWkrAYW+Fej6n\nV8NHehf5YHKecN8LXQ6u4eHo85eL4ro4YVCMJQ6GMwKBgQDgShUCsGfYzmJGm5If\ndrig2ArGf8IeFOknXzb5kuE8vHdL9mVO/jP2oEBdArCB8C+sa7iDqsm43jlOPa3x\nOaR/IWfLwGHzRWZdqBpuZdxJApIhsDYwvBDL/AeBwjlashPoe10eshvXUwmazobH\neANwuo0BfdMebbasBKumdoKR4wKBgQDSzcftCRT+PVsCvn9JZ0K3cIJNW8Woc+j4\nehKjV+iC6Ivtbn6STu2VVqDPOB9x8AI4HEp3FnezMTteVfu0S/nm8XJazURNTleM\n+8ed0VbqRhAzW7byaee3kb5+2a49/UATQzpBt7r1As5n3vrEoHKsOeHIg+I5f0jb\nDEKWFK0alwJ/fiktqFWSFGIC5bScfRZKxC7B4OX8Su94Nq1YPwpfp8pbUF9InSZg\nFFoP2kGpB24TYuk04NswnMxjb59COG40GU6xE+sjLbPb4NKuC2tAfdD0Yf68fK1M\nxXD+x/54RIvmpt69goatInGS9YE2Tv0y8jX9Gtmr53HPTvNRmlEPIQKBgBNewU4w\nlXM/JAu+gWe3S1QbzH1bP3BZJkEexnOn8j+FKsZobsz237HnQeOInqsTiMCrKNSE\nhf87ON9UO0q36ICmEwHw9qO73SOhRxhjUf847OgrN0ZTIO2nQL/bNL2Rdb/PX50G\nSvGUjm7Q+G306FSXBP4t0C3EWmd2Wu/7emSFAoGBAMJs3E9REe+lEXNsJX+Iy3S7\n9962yInN5wO5Wk5kz32OnbPRjhvVT1egS28B3LLYaIbDQxps5FzFAvciHzbFmRbe\ndKtkhe1OTPPtLfVXj0MRvrOyDrqtaAfAjNQ0ptIaDg5r/jTLec47vipAedUpRi+H\nZjsrVhtFZCv1PCK4Am0r\n-----END PRIVATE KEY-----\n",
+  "client_email": "smartfood-184220@appspot.gserviceaccount.com",
+  "client_id": "113009029898806317324",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://accounts.google.com/o/oauth2/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/smartfood-184220%40appspot.gserviceaccount.com"
+}
